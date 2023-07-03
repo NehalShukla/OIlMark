@@ -214,7 +214,7 @@ document.getElementById("CanvasSection").style.display = "none";
     NameSearch = custnamedropdownData.length>0 ? custnamedropdownData:"";
       // CountrySearch = custdropdownData.length>0 ? custdropdownData.toUpperCase():"";
       // NameSearch = custnamedropdownData.length>0 ? custnamedropdownData.toUpperCase():"";
-
+//
       //history.push("/Customer");
     {
         CustomerDataUpdated.map((item: any) => {
