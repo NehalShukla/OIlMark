@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "oil-mark-project-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/oilMarkProject/OilMarkProjectWebPart.js",
+          "manifest": "./src/webparts/oilMarkProject/OilMarkProjectWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OilMarkProjectWebPartStrings": "lib/webparts/oilMarkProject/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
